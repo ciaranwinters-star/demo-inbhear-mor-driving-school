@@ -26,7 +26,7 @@ export default function Contact() {
   return (
     <div className="max-w-5xl mx-auto px-4 py-16">
       <h1 className="text-4xl font-bold mb-4" style={{ color: "#003566" }}>Contact Us</h1>
-      <p className="text-gray-500 text-lg mb-12">Book your first lesson with Stephen today.</p>
+      <p className="text-gray-500 text-lg mb-12">Book your lessons with Stephen today. Pass first time.</p>
       <div className="grid grid-cols-1 md:grid-cols-2 gap-12">
         <div>
           <h2 className="text-xl font-bold mb-6" style={{ color: "#003566" }}>Get in Touch</h2>

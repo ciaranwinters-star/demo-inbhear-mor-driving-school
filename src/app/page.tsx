@@ -5,8 +5,8 @@ export default function Home() {
       <section style={{ background: "#003566" }} className="text-white py-28 px-4 relative">
         <div className="hero-overlay absolute inset-0" />
         <div className="relative max-w-4xl mx-auto text-center">
-          <h1 className="text-4xl md:text-5xl font-bold mb-6 leading-tight">Pass Your Driving Test First Time, Wicklow</h1>
-          <p className="text-xl mb-10 opacity-90">Expert instruction with proven results and competitive pricing.</p>
+          <h1 className="text-4xl md:text-5xl font-bold mb-6 leading-tight">Pass Your Driving Test First Time in Wicklow</h1>
+          <p className="text-xl mb-10 opacity-90">Expert instruction with Stephen. Ace your test with confidence.</p>
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
             <a href="tel:0872637116" style={{ background: "#FFC300" }} className="text-white px-8 py-4 rounded-xl font-bold text-lg hover:opacity-90 transition shadow-lg">
               📞 Call 087 263 7116
@@ -28,20 +28,20 @@ export default function Home() {
           <p className="text-center text-gray-500 mb-12">Everything you need, right here in Wicklow</p>
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
         <div className="bg-white rounded-2xl shadow-md p-6 border-t-4 hover:shadow-lg transition" style={{ borderColor: "#FFC300" }}>
-          <h3 className="font-bold text-lg mb-2" style={{ color: "#003566" }}>IBT (Intensive Driving Course)</h3>
-          <p className="text-gray-600 text-sm leading-relaxed">Comprehensive week-long intensive training designed to get you test-ready fast.</p>
+          <h3 className="font-bold text-lg mb-2" style={{ color: "#003566" }}>IBT (Initial Basic Training)</h3>
+          <p className="text-gray-600 text-sm leading-relaxed">Comprehensive 12-hour course covering essential driving skills and road safety.</p>
         </div>
         <div className="bg-white rounded-2xl shadow-md p-6 border-t-4 hover:shadow-lg transition" style={{ borderColor: "#FFC300" }}>
-          <h3 className="font-bold text-lg mb-2" style={{ color: "#003566" }}>Category A Motorcycle Training</h3>
-          <p className="text-gray-600 text-sm leading-relaxed">Specialist motorcycle instruction tailored to help you ace your Category A exam.</p>
-        </div>
-        <div className="bg-white rounded-2xl shadow-md p-6 border-t-4 hover:shadow-lg transition" style={{ borderColor: "#FFC300" }}>
-          <h3 className="font-bold text-lg mb-2" style={{ color: "#003566" }}>Standard Driving Lessons</h3>
-          <p className="text-gray-600 text-sm leading-relaxed">Flexible one-to-one lessons building your skills and road confidence progressively.</p>
+          <h3 className="font-bold text-lg mb-2" style={{ color: "#003566" }}>Driving Lessons</h3>
+          <p className="text-gray-600 text-sm leading-relaxed">One-to-one tuition tailored to your learning pace and test requirements.</p>
         </div>
         <div className="bg-white rounded-2xl shadow-md p-6 border-t-4 hover:shadow-lg transition" style={{ borderColor: "#FFC300" }}>
           <h3 className="font-bold text-lg mb-2" style={{ color: "#003566" }}>Test Preparation</h3>
-          <p className="text-gray-600 text-sm leading-relaxed">Focused coaching covering test techniques, routes, and exam-day confidence building.</p>
+          <p className="text-gray-600 text-sm leading-relaxed">Focused coaching to build confidence and master exam technique.</p>
+        </div>
+        <div className="bg-white rounded-2xl shadow-md p-6 border-t-4 hover:shadow-lg transition" style={{ borderColor: "#FFC300" }}>
+          <h3 className="font-bold text-lg mb-2" style={{ color: "#003566" }}>Category A Training</h3>
+          <p className="text-gray-600 text-sm leading-relaxed">Specialised instruction for motorcycle and category A driving tests.</p>
         </div>
           </div>
         </div>
@@ -54,25 +54,25 @@ export default function Home() {
           <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
         <div className="bg-white rounded-2xl shadow-md p-6">
           <div className="text-yellow-400 text-xl mb-3">★★★★★</div>
-          <p className="text-gray-700 italic mb-4">"Stephen's knowledge and teaching are absolutely top-notch. Competitive prices, great to work with."</p>
+          <p className="text-gray-700 italic mb-4">"Stephen's knowledge and teaching ability are exceptional. Competitive pricing, great to work with."</p>
           <p className="font-semibold text-sm" style={{ color: "#FFC300" }}>Eric, Wicklow</p>
         </div>
         <div className="bg-white rounded-2xl shadow-md p-6">
           <div className="text-yellow-400 text-xl mb-3">★★★★★</div>
-          <p className="text-gray-700 italic mb-4">"A wealth of knowledge and real passion. Everything explained clearly and simply throughout."</p>
-          <p className="font-semibold text-sm" style={{ color: "#FFC300" }}>Niall, Greystones</p>
+          <p className="text-gray-700 italic mb-4">"A wealth of knowledge and passion. Everything explained clearly and simply throughout."</p>
+          <p className="font-semibold text-sm" style={{ color: "#FFC300" }}>Niall, Wicklow</p>
         </div>
         <div className="bg-white rounded-2xl shadow-md p-6">
           <div className="text-yellow-400 text-xl mb-3">★★★★★</div>
-          <p className="text-gray-700 italic mb-4">"Solid teaching with tailored lessons and smart tips. First time pass guaranteed my confidence."</p>
-          <p className="font-semibold text-sm" style={{ color: "#FFC300" }}>Marcin, Arklow</p>
+          <p className="text-gray-700 italic mb-4">"Solid teaching, tailored lessons, savvy tips. I aced my Category A exam first time."</p>
+          <p className="font-semibold text-sm" style={{ color: "#FFC300" }}>Marcin, Wicklow</p>
         </div>
           </div>
         </div>
       </section>
       <section style={{ background: "#FFC300" }} className="py-16 px-4 text-white text-center">
         <div className="max-w-2xl mx-auto">
-          <h2 className="text-3xl font-bold mb-4">Book your first lesson with Stephen today.</h2>
+          <h2 className="text-3xl font-bold mb-4">Book your lessons with Stephen today. Pass first time.</h2>
           <p className="text-lg mb-8 opacity-90">Call us today or send a message and we'll get back to you fast.</p>
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
             <a href="tel:0872637116" className="bg-white px-8 py-4 rounded-xl font-bold text-lg hover:opacity-90 transition" style={{ color: "#FFC300" }}>

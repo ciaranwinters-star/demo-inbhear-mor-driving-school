@@ -5,20 +5,20 @@ export default function Services() {
       <p className="text-gray-500 text-lg mb-12">Everything we offer at Inbhear Mor Driving School.</p>
       <div className="flex flex-col gap-6">
       <div className="bg-white rounded-2xl shadow-md p-8 border-l-4" style={{ borderColor: "#FFC300" }}>
-        <h2 className="text-xl font-bold mb-3" style={{ color: "#003566" }}>IBT (Intensive Driving Course)</h2>
-        <p className="text-gray-600 leading-relaxed">Comprehensive week-long intensive training designed to get you test-ready fast.</p>
+        <h2 className="text-xl font-bold mb-3" style={{ color: "#003566" }}>IBT (Initial Basic Training)</h2>
+        <p className="text-gray-600 leading-relaxed">Comprehensive 12-hour course covering essential driving skills and road safety.</p>
       </div>
       <div className="bg-white rounded-2xl shadow-md p-8 border-l-4" style={{ borderColor: "#FFC300" }}>
-        <h2 className="text-xl font-bold mb-3" style={{ color: "#003566" }}>Category A Motorcycle Training</h2>
-        <p className="text-gray-600 leading-relaxed">Specialist motorcycle instruction tailored to help you ace your Category A exam.</p>
-      </div>
-      <div className="bg-white rounded-2xl shadow-md p-8 border-l-4" style={{ borderColor: "#FFC300" }}>
-        <h2 className="text-xl font-bold mb-3" style={{ color: "#003566" }}>Standard Driving Lessons</h2>
-        <p className="text-gray-600 leading-relaxed">Flexible one-to-one lessons building your skills and road confidence progressively.</p>
+        <h2 className="text-xl font-bold mb-3" style={{ color: "#003566" }}>Driving Lessons</h2>
+        <p className="text-gray-600 leading-relaxed">One-to-one tuition tailored to your learning pace and test requirements.</p>
       </div>
       <div className="bg-white rounded-2xl shadow-md p-8 border-l-4" style={{ borderColor: "#FFC300" }}>
         <h2 className="text-xl font-bold mb-3" style={{ color: "#003566" }}>Test Preparation</h2>
-        <p className="text-gray-600 leading-relaxed">Focused coaching covering test techniques, routes, and exam-day confidence building.</p>
+        <p className="text-gray-600 leading-relaxed">Focused coaching to build confidence and master exam technique.</p>
+      </div>
+      <div className="bg-white rounded-2xl shadow-md p-8 border-l-4" style={{ borderColor: "#FFC300" }}>
+        <h2 className="text-xl font-bold mb-3" style={{ color: "#003566" }}>Category A Training</h2>
+        <p className="text-gray-600 leading-relaxed">Specialised instruction for motorcycle and category A driving tests.</p>
       </div>
       </div>
       <div className="mt-12 text-center">
