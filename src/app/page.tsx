@@ -6,7 +6,7 @@ export default function Home() {
         <div className="absolute inset-0" style={{ background: "linear-gradient(135deg, #003566f2 0%, #003566aa 60%, #00356666 100%)" }} />
         <div className="relative max-w-5xl mx-auto px-4 py-24 w-full animate-fade-in-up">
           <h1 className="text-5xl md:text-7xl font-bold mb-6 leading-[1.05] tracking-tight max-w-3xl [text-wrap:balance]">Pass Your Driving Test First Time in Wicklow</h1>
-          <p className="text-xl md:text-2xl mb-10 opacity-95 max-w-2xl leading-relaxed [text-wrap:balance]">Expert instruction with proven results and genuine confidence on the road.</p>
+          <p className="text-xl md:text-2xl mb-10 opacity-95 max-w-2xl leading-relaxed [text-wrap:balance]">Expert instruction with Stephen—pass with confidence on your first attempt.</p>
           <div className="flex flex-col sm:flex-row gap-4">
             <a href="https://wa.me/353872637116?text=Hi%2C%20I%27d%20like%20to%20book%20driving%20lessons" target="_blank" rel="noopener noreferrer" style={{ background: "#FFC300" }} className="text-white px-8 py-4 rounded-xl font-bold text-lg hover:opacity-90 hover:-translate-y-0.5 transition-all shadow-2xl inline-flex items-center justify-center gap-2">
               💬 WhatsApp Us
@@ -30,7 +30,7 @@ export default function Home() {
         <div className="flex items-center gap-2 text-gray-700 text-sm font-medium">⭐ 5 (20 reviews)</div>
         <div className="flex items-center gap-2 text-gray-700 text-sm font-medium">📍 Wicklow</div>
         <div className="flex items-center gap-2 text-gray-700 text-sm font-medium">📞 087 263 7116</div>
-        <div className="flex items-center gap-2 text-gray-700 text-sm font-medium">✓ Locally trusted</div>
+        <div className="flex items-center gap-2 text-gray-700 text-sm font-medium">🕐 Today: 8:00 AM – 6:00 PM</div>
         </div>
       </section>
 
@@ -42,23 +42,23 @@ export default function Home() {
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6">
         <div className="bg-white rounded-2xl shadow-md p-7 border-t-4 hover:shadow-xl hover:-translate-y-1 transition-all duration-300" style={{ borderColor: "#FFC300" }}>
           <div className="text-3xl mb-4">🎯</div>
-          <h3 className="font-bold text-lg mb-2" style={{ color: "#003566" }}>IBT (Essential Driver Training)</h3>
-          <p className="text-gray-600 text-sm leading-relaxed">Comprehensive Essential Driver Training tailored to Category A and other licenses.</p>
+          <h3 className="font-bold text-lg mb-2" style={{ color: "#003566" }}>Intensive IBT Training</h3>
+          <p className="text-gray-600 text-sm leading-relaxed">Focused preparation for your Irish Driving Test with expert guidance</p>
         </div>
         <div className="bg-white rounded-2xl shadow-md p-7 border-t-4 hover:shadow-xl hover:-translate-y-1 transition-all duration-300" style={{ borderColor: "#FFC300" }}>
           <div className="text-3xl mb-4">⏱</div>
-          <h3 className="font-bold text-lg mb-2" style={{ color: "#003566" }}>Learner to Test Ready</h3>
-          <p className="text-gray-600 text-sm leading-relaxed">Structured lessons building skills from learner plate to confident test candidate.</p>
+          <h3 className="font-bold text-lg mb-2" style={{ color: "#003566" }}>Category A (Motorbike) Tuition</h3>
+          <p className="text-gray-600 text-sm leading-relaxed">Specialised instruction to help you master motorcycle handling and road awareness</p>
         </div>
         <div className="bg-white rounded-2xl shadow-md p-7 border-t-4 hover:shadow-xl hover:-translate-y-1 transition-all duration-300" style={{ borderColor: "#FFC300" }}>
           <div className="text-3xl mb-4">💡</div>
-          <h3 className="font-bold text-lg mb-2" style={{ color: "#003566" }}>Test Preparation Coaching</h3>
-          <p className="text-gray-600 text-sm leading-relaxed">Focused sessions covering test routes, examiner expectations, and practical techniques.</p>
+          <h3 className="font-bold text-lg mb-2" style={{ color: "#003566" }}>Learner Plate Lessons</h3>
+          <p className="text-gray-600 text-sm leading-relaxed">Building foundations with patient, structured lessons for new drivers</p>
         </div>
         <div className="bg-white rounded-2xl shadow-md p-7 border-t-4 hover:shadow-xl hover:-translate-y-1 transition-all duration-300" style={{ borderColor: "#FFC300" }}>
           <div className="text-3xl mb-4">🤝</div>
-          <h3 className="font-bold text-lg mb-2" style={{ color: "#003566" }}>Refresher Lessons</h3>
-          <p className="text-gray-600 text-sm leading-relaxed">Boost your confidence and skills with tailored one-off or block-booking lessons.</p>
+          <h3 className="font-bold text-lg mb-2" style={{ color: "#003566" }}>Test Preparation Packages</h3>
+          <p className="text-gray-600 text-sm leading-relaxed">Targeted sessions designed to boost confidence and eliminate test-day nerves</p>
         </div>
           </div>
         </div>
