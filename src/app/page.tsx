@@ -2,16 +2,16 @@ export default function Home() {
   return (
     <>
       {/* Hero */}
-      <section style={{ minHeight: "85vh", background: "#003566" }} className="text-white relative flex items-center">
+      <section style={{ minHeight: "85vh", backgroundImage: "url(/images/photo_1.png)", backgroundSize: "cover", backgroundPosition: "center" }} className="text-white relative flex items-center overflow-hidden">
         <div className="absolute inset-0" style={{ background: "linear-gradient(135deg, #003566f2 0%, #003566aa 60%, #00356666 100%)" }} />
-        <div className="relative max-w-5xl mx-auto px-4 py-24 w-full">
-          <h1 className="text-4xl md:text-6xl font-bold mb-6 leading-tight max-w-3xl">Pass Your Driving Test First Time in Wicklow</h1>
-          <p className="text-xl md:text-2xl mb-10 opacity-95 max-w-2xl leading-relaxed">Expert instruction with Stephen—ace your test with confidence and proven results.</p>
+        <div className="relative max-w-5xl mx-auto px-4 py-24 w-full animate-fade-in-up">
+          <h1 className="text-5xl md:text-7xl font-bold mb-6 leading-[1.05] tracking-tight max-w-3xl [text-wrap:balance]">Pass Your Driving Test First Time in Wicklow</h1>
+          <p className="text-xl md:text-2xl mb-10 opacity-95 max-w-2xl leading-relaxed [text-wrap:balance]">Expert instruction with proven results and genuine confidence on the road.</p>
           <div className="flex flex-col sm:flex-row gap-4">
-            <a href="https://wa.me/353872637116?text=Hi%2C%20I%27d%20like%20to%20book%20driving%20lessons" target="_blank" rel="noopener noreferrer" style={{ background: "#FFC300" }} className="text-white px-8 py-4 rounded-xl font-bold text-lg hover:opacity-90 transition shadow-2xl inline-flex items-center justify-center gap-2">
+            <a href="https://wa.me/353872637116?text=Hi%2C%20I%27d%20like%20to%20book%20driving%20lessons" target="_blank" rel="noopener noreferrer" style={{ background: "#FFC300" }} className="text-white px-8 py-4 rounded-xl font-bold text-lg hover:opacity-90 hover:-translate-y-0.5 transition-all shadow-2xl inline-flex items-center justify-center gap-2">
               💬 WhatsApp Us
             </a>
-            <a href="tel:0872637116" className="border-2 border-white text-white px-8 py-4 rounded-xl font-bold text-lg hover:bg-white hover:text-gray-900 transition inline-flex items-center justify-center gap-2">
+            <a href="tel:0872637116" className="border-2 border-white text-white px-8 py-4 rounded-xl font-bold text-lg hover:bg-white hover:text-gray-900 transition-all inline-flex items-center justify-center gap-2">
               📞 087 263 7116
             </a>
           </div>
@@ -35,31 +35,48 @@ export default function Home() {
       </section>
 
       {/* Services */}
-      <section className="py-20 px-4" style={{ background: "#F9F9F9" }}>
+      <section className="py-20 px-4 bg-white">
         <div className="max-w-6xl mx-auto">
-          <h2 className="text-3xl md:text-4xl font-bold text-center mb-3" style={{ color: "#003566" }}>What we offer</h2>
+          <h2 className="text-3xl md:text-4xl font-bold text-center mb-3 [text-wrap:balance]" style={{ color: "#003566" }}>What we offer</h2>
           <p className="text-center text-gray-500 mb-12">Built for Wicklow — clear, simple, dependable.</p>
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6">
         <div className="bg-white rounded-2xl shadow-md p-7 border-t-4 hover:shadow-xl hover:-translate-y-1 transition-all duration-300" style={{ borderColor: "#FFC300" }}>
           <div className="text-3xl mb-4">🎯</div>
-          <h3 className="font-bold text-lg mb-2" style={{ color: "#003566" }}>Intensive IBT Training</h3>
-          <p className="text-gray-600 text-sm leading-relaxed">Comprehensive preparation for your Irish Braking Test with clear, tailored instruction.</p>
+          <h3 className="font-bold text-lg mb-2" style={{ color: "#003566" }}>IBT (Essential Driver Training)</h3>
+          <p className="text-gray-600 text-sm leading-relaxed">Comprehensive Essential Driver Training tailored to Category A and other licenses.</p>
         </div>
         <div className="bg-white rounded-2xl shadow-md p-7 border-t-4 hover:shadow-xl hover:-translate-y-1 transition-all duration-300" style={{ borderColor: "#FFC300" }}>
           <div className="text-3xl mb-4">⏱</div>
-          <h3 className="font-bold text-lg mb-2" style={{ color: "#003566" }}>Category A Lessons</h3>
-          <p className="text-gray-600 text-sm leading-relaxed">Expert guidance to master Category A driving skills and exam requirements.</p>
+          <h3 className="font-bold text-lg mb-2" style={{ color: "#003566" }}>Learner to Test Ready</h3>
+          <p className="text-gray-600 text-sm leading-relaxed">Structured lessons building skills from learner plate to confident test candidate.</p>
         </div>
         <div className="bg-white rounded-2xl shadow-md p-7 border-t-4 hover:shadow-xl hover:-translate-y-1 transition-all duration-300" style={{ borderColor: "#FFC300" }}>
           <div className="text-3xl mb-4">💡</div>
-          <h3 className="font-bold text-lg mb-2" style={{ color: "#003566" }}>Standard Driving Lessons</h3>
-          <p className="text-gray-600 text-sm leading-relaxed">Flexible one-to-one tuition covering all aspects of safe, confident driving.</p>
+          <h3 className="font-bold text-lg mb-2" style={{ color: "#003566" }}>Test Preparation Coaching</h3>
+          <p className="text-gray-600 text-sm leading-relaxed">Focused sessions covering test routes, examiner expectations, and practical techniques.</p>
         </div>
         <div className="bg-white rounded-2xl shadow-md p-7 border-t-4 hover:shadow-xl hover:-translate-y-1 transition-all duration-300" style={{ borderColor: "#FFC300" }}>
           <div className="text-3xl mb-4">🤝</div>
-          <h3 className="font-bold text-lg mb-2" style={{ color: "#003566" }}>Test Preparation Packages</h3>
-          <p className="text-gray-600 text-sm leading-relaxed">Focused coaching designed to get you test-ready and pass on your first attempt.</p>
+          <h3 className="font-bold text-lg mb-2" style={{ color: "#003566" }}>Refresher Lessons</h3>
+          <p className="text-gray-600 text-sm leading-relaxed">Boost your confidence and skills with tailored one-off or block-booking lessons.</p>
         </div>
+          </div>
+        </div>
+      </section>
+
+      {/* Where to find us */}
+      <section className="py-20 px-4" style={{ background: "#F9F9F9" }}>
+        <div className="max-w-6xl mx-auto">
+          <h2 className="text-3xl md:text-4xl font-bold text-center mb-3 [text-wrap:balance]" style={{ color: "#003566" }}>Where to find us</h2>
+          <p className="text-center text-gray-500 mb-10">4, Raheen, Arklow, Co. Wicklow, Ireland</p>
+          <div className="rounded-2xl overflow-hidden shadow-xl border border-gray-200">
+            <iframe src="https://maps.google.com/maps?q=4%2C%20Raheen%2C%20Arklow%2C%20Co.%20Wicklow%2C%20Ireland&z=15&output=embed" width="100%" height="420" style={{ border: 0 }} loading="lazy" referrerPolicy="no-referrer-when-downgrade" allowFullScreen></iframe>
+          </div>
+          <div className="text-center mt-6">
+            <a href="https://www.google.com/maps/search/?api=1&query=4%2C%20Raheen%2C%20Arklow%2C%20Co.%20Wicklow%2C%20Ireland" target="_blank" rel="noopener noreferrer" className="inline-flex items-center gap-2 font-semibold hover:underline" style={{ color: "#003566" }}>
+              Get directions on Google Maps
+              <span aria-hidden>→</span>
+            </a>
           </div>
         </div>
       </section>
@@ -67,7 +84,7 @@ export default function Home() {
       {/* Real Google reviews */}
       <section className="py-20 px-4 bg-white">
         <div className="max-w-6xl mx-auto">
-          <h2 className="text-3xl md:text-4xl font-bold text-center mb-3" style={{ color: "#003566" }}>What our customers say</h2>
+          <h2 className="text-3xl md:text-4xl font-bold text-center mb-3 [text-wrap:balance]" style={{ color: "#003566" }}>What our customers say</h2>
           <p className="text-center text-gray-500 mb-12">Real reviews, straight from Google.</p>
           <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
         <div className="bg-white rounded-2xl shadow-md p-7 flex flex-col">
